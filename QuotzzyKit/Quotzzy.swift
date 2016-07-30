@@ -96,7 +96,7 @@ public class Quotzzy {
         quoteRequest.HTTPMethod = "GET"
         
         URLSession.downloadTaskWithRequest(quoteRequest, completionHandler: {(url: NSURL?, response: NSURLResponse?, error: NSError?) -> Void in
-            if (error == nil) {
+            if error == nil {
                 let responseData = NSData(contentsOfURL: url!)
                 if(responseData != nil) {
                     let parsedResponse: Dictionary<String, AnyObject>?
