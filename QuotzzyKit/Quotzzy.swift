@@ -98,7 +98,7 @@ public class Quotzzy {
         URLSession.downloadTaskWithRequest(quoteRequest, completionHandler: {(url: NSURL?, response: NSURLResponse?, error: NSError?) -> Void in
             if error == nil {
                 let responseData = NSData(contentsOfURL: url!)
-                if(responseData != nil) {
+                if responseData != nil {
                     let parsedResponse: Dictionary<String, AnyObject>?
                     do {
                         parsedResponse = try NSJSONSerialization.JSONObjectWithData(responseData!, options: NSJSONReadingOptions.MutableContainers) as? Dictionary<String, AnyObject>
