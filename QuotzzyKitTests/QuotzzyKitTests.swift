@@ -38,7 +38,7 @@ class QuotzzyKitTests: XCTestCase {
         let expectation = expectationWithDescription("Quote request should succeed")
         var quoteObject: Quote?
         Quotzzy.sharedClient().getQuote(nil, key: nil, completionHandler: {(quote: Quote?, error: NSError?) -> Void in
-            if (error == nil) {
+            if error == nil {
                 quoteObject = quote
                 expectation.fulfill()
             } else {
