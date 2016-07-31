@@ -39,7 +39,7 @@ platform :ios, '8.0'
 use_frameworks!
 
 target '<Your Target Name>' do
-    pod 'QuotzzyKit', '~> 1.0.1'
+    pod 'QuotzzyKit', '~> 1.0.2'
 end
 ```
 
@@ -63,7 +63,7 @@ $ brew install carthage
 To integrate QuotzzyKit into your Xcode project using Carthage, specify it in your `Cartfile`:
 
 ```ogdl
-github "AnatoliyGatt/QuotzzyKit" ~> 1.0.1
+github "AnatoliyGatt/QuotzzyKit" ~> 1.0.2
 ```
 
 Run `carthage update` to build the framework and drag the built `QuotzzyKit.framework` into your Xcode project.
