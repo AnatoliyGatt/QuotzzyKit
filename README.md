@@ -7,6 +7,7 @@
 [![CocoaPods Pod Language][cocoapods-pod-language-badge]][cocoapods-pod-url]
 [![Carthage Compatible][carthage-compatible-badge]][carthage-github-repository-url]
 [![Travis CI Build Status][travis-ci-build-status-badge]][travis-ci-build-status-page-url]
+[![Codecov Test Coverage Status][codecov-test-coverage-status-badge]][codecov-test-coverage-status-page-url]
 
 An elegant client for Quotzzy API written in Swift.
 
@@ -172,3 +173,6 @@ Distributed under the [MIT License](LICENSE).
 
 [travis-ci-build-status-badge]: https://img.shields.io/travis/AnatoliyGatt/QuotzzyKit.svg?style=flat-square
 [travis-ci-build-status-page-url]: https://travis-ci.org/AnatoliyGatt/QuotzzyKit
+
+[codecov-test-coverage-status-badge]: https://img.shields.io/codecov/c/github/AnatoliyGatt/QuotzzyKit.svg
+[codecov-test-coverage-status-page-url]: https://codecov.io/gh/AnatoliyGatt/QuotzzyKit
