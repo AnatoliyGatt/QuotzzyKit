@@ -174,5 +174,5 @@ Distributed under the [MIT License](LICENSE).
 [travis-ci-build-status-badge]: https://img.shields.io/travis/AnatoliyGatt/QuotzzyKit.svg?style=flat-square
 [travis-ci-build-status-page-url]: https://travis-ci.org/AnatoliyGatt/QuotzzyKit
 
-[codecov-test-coverage-status-badge]: https://img.shields.io/codecov/c/github/AnatoliyGatt/QuotzzyKit.svg
+[codecov-test-coverage-status-badge]: https://img.shields.io/codecov/c/github/AnatoliyGatt/QuotzzyKit.svg?style=flat-square
 [codecov-test-coverage-status-page-url]: https://codecov.io/gh/AnatoliyGatt/QuotzzyKit
