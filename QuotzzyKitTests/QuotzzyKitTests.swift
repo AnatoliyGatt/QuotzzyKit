@@ -86,37 +86,23 @@ class QuotzzyKitTests: XCTestCase {
 
     func testQuotzzyRespondWithValidQuoteObjectWhenRequestedWithLanguageSetToRussianAndManuallySetKey() {
         let expectation = expectationWithDescription("Quote request should succeed")
-        var quoteObject: Quote?
         Quotzzy.sharedClient().getQuote("ru", key: 123456, completionHandler: {(quote: Quote?, error: NSError?) -> Void in
-            if error == nil {
-                quoteObject = quote
-                expectation.fulfill()
-            } else {
-                XCTFail(error!.description)
-            }
+            XCTAssertNil(error)
+            self.validateQuote(quote)
+            expectation.fulfill()
         })
-        self.waitForExpectationsWithTimeout(60, handler: {(error) in
-            XCTAssertNil(error, "error should be nil")
-            self.validateQuote(quoteObject)
-        })
+        self.waitForExpectationsWithTimeout(60, handler: nil)
     }
     
     func testQuotzzyRespondWithErrorObjectWhenRequestedWithInvalidLanguage() {
         let expectation = expectationWithDescription("Quote request should fail")
-        var errorObject: NSError?
         Quotzzy.sharedClient().getQuote("jp", key: nil, completionHandler: {(quote: Quote?, error: NSError?) -> Void in
-            if error != nil {
-                errorObject = error
-                expectation.fulfill()
-            } else {
-                XCTFail("quote request should fail when requested with invalid language")
-            }
+            XCTAssertNotNil(error, "error should not be nil")
+            XCTAssertEqual(error?.domain, "com.anatoliygatt.QuotzzyKit", "errorObject.domain should be equal to com.anatoliygatt.QuotzzyKit")
+            XCTAssertEqual(error?.code, 401, "errorObject.code should be equal to 401")
+            XCTAssertEqual(error?.localizedDescription, "Invalid language.", "errorObject.description should be equal to \"Invalid language.\"")
+            expectation.fulfill()
         })
-        self.waitForExpectationsWithTimeout(60, handler: {(error) in
-            XCTAssertNil(error, "error should be nil")
-            XCTAssertEqual(errorObject?.domain, "com.anatoliygatt.QuotzzyKit", "errorObject.domain should be equal to com.anatoliygatt.QuotzzyKit")
-            XCTAssertEqual(errorObject?.code, 401, "errorObject.code should be equal to 401")
-            XCTAssertEqual(errorObject?.localizedDescription, "Invalid language.", "errorObject.description should be equal to \"Invalid language.\"")
-        })
+        self.waitForExpectationsWithTimeout(60, handler: nil)
     }
 }
