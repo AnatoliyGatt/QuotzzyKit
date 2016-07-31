@@ -123,7 +123,7 @@ class QuotzzyKitTests: XCTestCase {
         let expectation = expectationWithDescription("Quote request should succeed")
         var quoteObject: Quote?
         Quotzzy.sharedClient().getQuote("ru", key: 123456, completionHandler: {(quote: Quote?, error: NSError?) -> Void in
-            if (error == nil) {
+            if error == nil {
                 quoteObject = quote
                 expectation.fulfill()
             } else {
@@ -140,7 +140,7 @@ class QuotzzyKitTests: XCTestCase {
         let expectation = expectationWithDescription("Quote request should fail")
         var errorObject: NSError?
         Quotzzy.sharedClient().getQuote("jp", key: nil, completionHandler: {(quote: Quote?, error: NSError?) -> Void in
-            if (error != nil) {
+            if error != nil {
                 errorObject = error
                 expectation.fulfill()
             } else {
