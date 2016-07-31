@@ -46,36 +46,22 @@ class QuotzzyKitTests: XCTestCase {
     
     func testQuotzzyRespondWithValidQuoteObjectWhenRequestedWithManuallySetKey() {
         let expectation = expectationWithDescription("Quote request should succeed")
-        var quoteObject: Quote?
         Quotzzy.sharedClient().getQuote(nil, key: 123456, completionHandler: {(quote: Quote?, error: NSError?) -> Void in
-            if error == nil {
-                quoteObject = quote
-                expectation.fulfill()
-            } else {
-                XCTFail(error!.description)
-            }
+            XCTAssertNil(error)
+            self.validateQuote(quote)
+            expectation.fulfill()
         })
-        self.waitForExpectationsWithTimeout(60, handler: {(error) in
-            XCTAssertNil(error, "error should be nil")
-            self.validateQuote(quoteObject)
-        })
+        self.waitForExpectationsWithTimeout(60, handler: nil)
     }
 
     func testQuotzzyRespondWithValidQuoteObjectWhenRequestedWithLanguageSetToEnglish() {
         let expectation = expectationWithDescription("Quote request should succeed")
-        var quoteObject: Quote?
         Quotzzy.sharedClient().getQuote("en", key: nil, completionHandler: {(quote: Quote?, error: NSError?) -> Void in
-            if error == nil {
-                quoteObject = quote
-                expectation.fulfill()
-            } else {
-                XCTFail(error!.description)
-            }
+            XCTAssertNil(error)
+            self.validateQuote(quote)
+            expectation.fulfill()
         })
-        self.waitForExpectationsWithTimeout(60, handler: {(error) in
-            XCTAssertNil(error, "error should be nil")
-            self.validateQuote(quoteObject)
-        })
+        self.waitForExpectationsWithTimeout(60, handler: nil)
     }
 
     func testQuotzzyRespondWithValidQuoteObjectWhenRequestedWithLanguageSetToEnglishAndManuallySetKey() {
