@@ -28,13 +28,13 @@
 import XCTest
 @testable import QuotzzyKit
 
-class QuotzzyKitTests: XCTestCase {
-    func validateQuote(quote: Quote?) {
+public class QuotzzyKitTests: XCTestCase {
+    public func validateQuote(quote: Quote?) {
         XCTAssertTrue(quote != nil, "quote should not be nil")
         XCTAssertNotNil(quote?.text, "quote.text should not be nil")
     }
     
-    func testQuotzzyRespondWithValidQuoteObjectWhenRequestedWithNoParameters() {
+    public func testQuotzzyRespondWithValidQuoteObjectWhenRequestedWithNoParameters() {
         let expectation = expectationWithDescription("Quote request should succeed")
         Quotzzy.sharedClient().getQuote(nil, key: nil, completionHandler: { (quote: Quote?, error: NSError?) -> Void in
             XCTAssertNil(error)
@@ -44,7 +44,7 @@ class QuotzzyKitTests: XCTestCase {
         self.waitForExpectationsWithTimeout(60, handler: nil)
     }
     
-    func testQuotzzyRespondWithValidQuoteObjectWhenRequestedWithManuallySetKey() {
+    public func testQuotzzyRespondWithValidQuoteObjectWhenRequestedWithManuallySetKey() {
         let expectation = expectationWithDescription("Quote request should succeed")
         Quotzzy.sharedClient().getQuote(nil, key: 123456, completionHandler: { (quote: Quote?, error: NSError?) -> Void in
             XCTAssertNil(error)
@@ -54,7 +54,7 @@ class QuotzzyKitTests: XCTestCase {
         self.waitForExpectationsWithTimeout(60, handler: nil)
     }
 
-    func testQuotzzyRespondWithValidQuoteObjectWhenRequestedWithLanguageSetToEnglish() {
+    public func testQuotzzyRespondWithValidQuoteObjectWhenRequestedWithLanguageSetToEnglish() {
         let expectation = expectationWithDescription("Quote request should succeed")
         Quotzzy.sharedClient().getQuote("en", key: nil, completionHandler: { (quote: Quote?, error: NSError?) -> Void in
             XCTAssertNil(error)
@@ -64,7 +64,7 @@ class QuotzzyKitTests: XCTestCase {
         self.waitForExpectationsWithTimeout(60, handler: nil)
     }
 
-    func testQuotzzyRespondWithValidQuoteObjectWhenRequestedWithLanguageSetToEnglishAndManuallySetKey() {
+    public func testQuotzzyRespondWithValidQuoteObjectWhenRequestedWithLanguageSetToEnglishAndManuallySetKey() {
         let expectation = expectationWithDescription("Quote request should succeed")
         Quotzzy.sharedClient().getQuote("en", key: 123456, completionHandler: { (quote: Quote?, error: NSError?) -> Void in
             XCTAssertNil(error)
@@ -74,7 +74,7 @@ class QuotzzyKitTests: XCTestCase {
         self.waitForExpectationsWithTimeout(60, handler: nil)
     }
     
-    func testQuotzzyRespondWithValidQuoteObjectWhenRequestedWithLanguageSetToRussian() {
+    public func testQuotzzyRespondWithValidQuoteObjectWhenRequestedWithLanguageSetToRussian() {
         let expectation = expectationWithDescription("Quote request should succeed")
         Quotzzy.sharedClient().getQuote("ru", key: nil, completionHandler: { (quote: Quote?, error: NSError?) -> Void in
             XCTAssertNil(error)
@@ -84,7 +84,7 @@ class QuotzzyKitTests: XCTestCase {
         self.waitForExpectationsWithTimeout(60, handler: nil)
     }
 
-    func testQuotzzyRespondWithValidQuoteObjectWhenRequestedWithLanguageSetToRussianAndManuallySetKey() {
+    public func testQuotzzyRespondWithValidQuoteObjectWhenRequestedWithLanguageSetToRussianAndManuallySetKey() {
         let expectation = expectationWithDescription("Quote request should succeed")
         Quotzzy.sharedClient().getQuote("ru", key: 123456, completionHandler: { (quote: Quote?, error: NSError?) -> Void in
             XCTAssertNil(error)
@@ -94,7 +94,7 @@ class QuotzzyKitTests: XCTestCase {
         self.waitForExpectationsWithTimeout(60, handler: nil)
     }
     
-    func testQuotzzyRespondWithErrorObjectWhenRequestedWithInvalidLanguage() {
+    public func testQuotzzyRespondWithErrorObjectWhenRequestedWithInvalidLanguage() {
         let expectation = expectationWithDescription("Quote request should fail")
         Quotzzy.sharedClient().getQuote("jp", key: nil, completionHandler: { (quote: Quote?, error: NSError?) -> Void in
             XCTAssertNotNil(error, "error should not be nil")
