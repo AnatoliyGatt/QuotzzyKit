@@ -36,7 +36,7 @@ class QuotzzyKitTests: XCTestCase {
     
     func testQuotzzyRespondWithValidQuoteObjectWhenRequestedWithNoParameters() {
         let expectation = expectationWithDescription("Quote request should succeed")
-        Quotzzy.sharedClient().getQuote(nil, key: nil, completionHandler: {(quote: Quote?, error: NSError?) -> Void in
+        Quotzzy.sharedClient().getQuote(nil, key: nil, completionHandler: { (quote: Quote?, error: NSError?) -> Void in
             XCTAssertNil(error)
             self.validateQuote(quote)
             expectation.fulfill()
@@ -46,7 +46,7 @@ class QuotzzyKitTests: XCTestCase {
     
     func testQuotzzyRespondWithValidQuoteObjectWhenRequestedWithManuallySetKey() {
         let expectation = expectationWithDescription("Quote request should succeed")
-        Quotzzy.sharedClient().getQuote(nil, key: 123456, completionHandler: {(quote: Quote?, error: NSError?) -> Void in
+        Quotzzy.sharedClient().getQuote(nil, key: 123456, completionHandler: { (quote: Quote?, error: NSError?) -> Void in
             XCTAssertNil(error)
             self.validateQuote(quote)
             expectation.fulfill()
@@ -56,7 +56,7 @@ class QuotzzyKitTests: XCTestCase {
 
     func testQuotzzyRespondWithValidQuoteObjectWhenRequestedWithLanguageSetToEnglish() {
         let expectation = expectationWithDescription("Quote request should succeed")
-        Quotzzy.sharedClient().getQuote("en", key: nil, completionHandler: {(quote: Quote?, error: NSError?) -> Void in
+        Quotzzy.sharedClient().getQuote("en", key: nil, completionHandler: { (quote: Quote?, error: NSError?) -> Void in
             XCTAssertNil(error)
             self.validateQuote(quote)
             expectation.fulfill()
@@ -66,7 +66,7 @@ class QuotzzyKitTests: XCTestCase {
 
     func testQuotzzyRespondWithValidQuoteObjectWhenRequestedWithLanguageSetToEnglishAndManuallySetKey() {
         let expectation = expectationWithDescription("Quote request should succeed")
-        Quotzzy.sharedClient().getQuote("en", key: 123456, completionHandler: {(quote: Quote?, error: NSError?) -> Void in
+        Quotzzy.sharedClient().getQuote("en", key: 123456, completionHandler: { (quote: Quote?, error: NSError?) -> Void in
             XCTAssertNil(error)
             self.validateQuote(quote)
             expectation.fulfill()
@@ -76,7 +76,7 @@ class QuotzzyKitTests: XCTestCase {
     
     func testQuotzzyRespondWithValidQuoteObjectWhenRequestedWithLanguageSetToRussian() {
         let expectation = expectationWithDescription("Quote request should succeed")
-        Quotzzy.sharedClient().getQuote("ru", key: nil, completionHandler: {(quote: Quote?, error: NSError?) -> Void in
+        Quotzzy.sharedClient().getQuote("ru", key: nil, completionHandler: { (quote: Quote?, error: NSError?) -> Void in
             XCTAssertNil(error)
             self.validateQuote(quote)
             expectation.fulfill()
@@ -86,7 +86,7 @@ class QuotzzyKitTests: XCTestCase {
 
     func testQuotzzyRespondWithValidQuoteObjectWhenRequestedWithLanguageSetToRussianAndManuallySetKey() {
         let expectation = expectationWithDescription("Quote request should succeed")
-        Quotzzy.sharedClient().getQuote("ru", key: 123456, completionHandler: {(quote: Quote?, error: NSError?) -> Void in
+        Quotzzy.sharedClient().getQuote("ru", key: 123456, completionHandler: { (quote: Quote?, error: NSError?) -> Void in
             XCTAssertNil(error)
             self.validateQuote(quote)
             expectation.fulfill()
@@ -96,7 +96,7 @@ class QuotzzyKitTests: XCTestCase {
     
     func testQuotzzyRespondWithErrorObjectWhenRequestedWithInvalidLanguage() {
         let expectation = expectationWithDescription("Quote request should fail")
-        Quotzzy.sharedClient().getQuote("jp", key: nil, completionHandler: {(quote: Quote?, error: NSError?) -> Void in
+        Quotzzy.sharedClient().getQuote("jp", key: nil, completionHandler: { (quote: Quote?, error: NSError?) -> Void in
             XCTAssertNotNil(error, "error should not be nil")
             XCTAssertEqual(error?.domain, "com.anatoliygatt.QuotzzyKit", "errorObject.domain should be equal to com.anatoliygatt.QuotzzyKit")
             XCTAssertEqual(error?.code, 401, "errorObject.code should be equal to 401")
