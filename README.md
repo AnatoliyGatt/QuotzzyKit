@@ -158,25 +158,25 @@ Distributed under the [MIT License](LICENSE).
 
 [cocoapods-pod-url]: https://cocoapods.org/pods/QuotzzyKit
 
-[cocoapods-pod-version-badge]: https://img.shields.io/cocoapods/v/QuotzzyKit.svg?style=flat-square
+[cocoapods-pod-version-badge]: https://img.shields.io/cocoapods/v/QuotzzyKit.svg?style=flat
 
-[cocoapods-pod-license-badge]: https://img.shields.io/cocoapods/l/QuotzzyKit.svg?style=flat-square
+[cocoapods-pod-license-badge]: https://img.shields.io/cocoapods/l/QuotzzyKit.svg?style=flat
 [cocoapods-pod-license-url]: http://opensource.org/licenses/MIT
 
-[cocoapods-pod-downloads-badge]: https://img.shields.io/cocoapods/dm/QuotzzyKit.svg?style=flat-square
+[cocoapods-pod-downloads-badge]: https://img.shields.io/cocoapods/dm/QuotzzyKit.svg?style=flat
 
-[cocoapods-pod-platform-badge]: https://img.shields.io/cocoapods/p/QuotzzyKit.svg?style=flat-square
+[cocoapods-pod-platform-badge]: https://img.shields.io/cocoapods/p/QuotzzyKit.svg?style=flat
 
-[cocoapods-pod-language-badge]: https://img.shields.io/badge/language-swift-orange.svg?style=flat-square
+[cocoapods-pod-language-badge]: https://img.shields.io/badge/language-swift-orange.svg?style=flat
 
-[carthage-compatible-badge]: https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat-square
+[carthage-compatible-badge]: https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat
 [carthage-github-repository-url]: https://github.com/Carthage/Carthage
 
-[travis-ci-build-status-badge]: https://img.shields.io/travis/AnatoliyGatt/QuotzzyKit.svg?style=flat-square
+[travis-ci-build-status-badge]: https://img.shields.io/travis/AnatoliyGatt/QuotzzyKit.svg?style=flat
 [travis-ci-build-status-page-url]: https://travis-ci.org/AnatoliyGatt/QuotzzyKit
 
 [codebeat-status-badge]: https://codebeat.co/badges/230252c9-34c8-48c6-9bec-40cde398507a
 [codebeat-status-page-url]: https://codebeat.co/projects/github-com-anatoliygatt-quotzzykit
 
-[codecov-test-coverage-status-badge]: https://img.shields.io/codecov/c/github/AnatoliyGatt/QuotzzyKit.svg?style=flat-square
+[codecov-test-coverage-status-badge]: https://img.shields.io/codecov/c/github/AnatoliyGatt/QuotzzyKit.svg?style=flat
 [codecov-test-coverage-status-page-url]: https://codecov.io/gh/AnatoliyGatt/QuotzzyKit
