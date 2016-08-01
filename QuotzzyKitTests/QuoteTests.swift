@@ -28,8 +28,8 @@
 import XCTest
 @testable import QuotzzyKit
 
-class QuoteTests: XCTestCase {
-    func testQuoteInstantiationWithAuthor() {
+public class QuoteTests: XCTestCase {
+    public func testQuoteInstantiationWithAuthor() {
         let quote = Quote(quote: [
             "text": "Ignorance never settle a question.",
             "author": [
@@ -44,7 +44,7 @@ class QuoteTests: XCTestCase {
         XCTAssertEqual(quote.author?.wiki, "http://en.wikipedia.com/wiki/Benjamin%20Disraeli", "quote.author.wiki should be equal to \"http://en.wikipedia.com/wiki/Benjamin%20Disraeli\"")
     }
     
-    func testQuoteInstantiationWithoutAuthor() {
+    public func testQuoteInstantiationWithoutAuthor() {
         let quote = Quote(quote: [
             "text": "Ignorance never settle a question."
         ])
