@@ -92,8 +92,8 @@
 			isa = PBXGroup;
 			children = (
 				DF4DBA241D452C4300BD4F6C /* QuotzzyTests.swift */,
-				DF4DBA261D452C4300BD4F6C /* Info.plist */,
 				DF24CD0B1D4F5B880015CC25 /* QuoteTests.swift */,
+				DF4DBA261D452C4300BD4F6C /* Info.plist */,
 			);
 			path = QuotzzyKitTests;
 			sourceTree = "<group>";
