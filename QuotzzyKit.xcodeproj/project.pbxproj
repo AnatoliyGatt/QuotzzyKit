@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		DF4DBA191D452C4300BD4F6C /* QuotzzyKit.h in Headers */ = {isa = PBXBuildFile; fileRef = DF4DBA181D452C4300BD4F6C /* QuotzzyKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DF4DBA201D452C4300BD4F6C /* QuotzzyKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF4DBA151D452C4300BD4F6C /* QuotzzyKit.framework */; };
-		DF4DBA251D452C4300BD4F6C /* QuotzzyKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4DBA241D452C4300BD4F6C /* QuotzzyKitTests.swift */; };
+		DF4DBA251D452C4300BD4F6C /* QuotzzyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4DBA241D452C4300BD4F6C /* QuotzzyTests.swift */; };
 		DF4DBA301D468EF300BD4F6C /* Quotzzy.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4DBA2F1D468EF300BD4F6C /* Quotzzy.swift */; };
 		DF4DBA321D4694BE00BD4F6C /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4DBA311D4694BE00BD4F6C /* Quote.swift */; };
 		DF4DBA341D4694F400BD4F6C /* Author.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4DBA331D4694F400BD4F6C /* Author.swift */; };
@@ -30,7 +30,7 @@
 		DF4DBA181D452C4300BD4F6C /* QuotzzyKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuotzzyKit.h; sourceTree = "<group>"; };
 		DF4DBA1A1D452C4300BD4F6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DF4DBA1F1D452C4300BD4F6C /* QuotzzyKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuotzzyKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DF4DBA241D452C4300BD4F6C /* QuotzzyKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotzzyKitTests.swift; sourceTree = "<group>"; };
+		DF4DBA241D452C4300BD4F6C /* QuotzzyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotzzyTests.swift; sourceTree = "<group>"; };
 		DF4DBA261D452C4300BD4F6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DF4DBA2F1D468EF300BD4F6C /* Quotzzy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Quotzzy.swift; sourceTree = "<group>"; };
 		DF4DBA311D4694BE00BD4F6C /* Quote.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
@@ -89,7 +89,7 @@
 		DF4DBA231D452C4300BD4F6C /* QuotzzyKitTests */ = {
 			isa = PBXGroup;
 			children = (
-				DF4DBA241D452C4300BD4F6C /* QuotzzyKitTests.swift */,
+				DF4DBA241D452C4300BD4F6C /* QuotzzyTests.swift */,
 				DF4DBA261D452C4300BD4F6C /* Info.plist */,
 			);
 			path = QuotzzyKitTests;
@@ -213,7 +213,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF4DBA251D452C4300BD4F6C /* QuotzzyKitTests.swift in Sources */,
+				DF4DBA251D452C4300BD4F6C /* QuotzzyTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
