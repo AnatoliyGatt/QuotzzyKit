@@ -1,3 +1,15 @@
+1.0.3 / 2016-08-01
+==================
+
+* Update README.md
+* Update QuoteTests.swift
+* Add QuoteTests.swift
+* Rename QuotzzyKitTests.swift to QuotzzyTests.swift
+* Update Quotzzy.swift
+* Update QuotzzyKitTests.swift
+* Improve test coverage in QuotzzyKitTests.swift
+* Fix 'if statements' coding style in QuotzzyKitTests.swift
+
 1.0.2 / 2016-07-31
 ==================
 
