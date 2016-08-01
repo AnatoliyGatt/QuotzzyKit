@@ -75,7 +75,7 @@ The quickest way to get started is by executing following code:
 ```swift
 import QuotzzyKit
 
-Quotzzy.sharedClient().getQuote("en", key: nil, completionHandler: { (quote: Quote?, error: NSError?) -> Void in
+Quotzzy.sharedClient().getQuote(.English, key: nil, completionHandler: { (quote: Quote?, error: NSError?) -> Void in
     if error == nil {
         print("\(quote?.text) - \(quote?.author?.name)(\(quote?.author?.wiki))")
     }
@@ -100,13 +100,13 @@ Get singleton instance of Quotzzy.
 Quotzzy.sharedClient()
 ```
 
-### getQuote(lang: String?, key: Int?, completionHandler: (quote: Quote?, error: NSError?) -> Void)
+### getQuote(lang: Language?, key: Int?, completionHandler: (quote: Quote?, error: NSError?) -> Void)
 
 Requests random quote.
 
 #### Parameters
 
-- `lang` - Response language (`en` or `ru`).
+- `lang` - Response language (.English or .Russian).
 - `key` - Numeric key, which influences the choice of quotation, the maximum length is 6 digits.
 - `completionHandler` - Callback when response comes in.
 
@@ -142,7 +142,7 @@ Quotzzy.sharedClient().getQuote(nil, key: nil, completionHandler: { (quote: Quot
 Requests quote in Russian with manually set key.
 
 ```swift
-Quotzzy.sharedClient().getQuote("ru", key: 123456, completionHandler: { (quote: Quote?, error: NSError?) -> Void in
+Quotzzy.sharedClient().getQuote(.Russian, key: 123456, completionHandler: { (quote: Quote?, error: NSError?) -> Void in
     if error == nil {
         print("\(quote?.text) - \(quote?.author?.name)(\(quote?.author?.wiki))")
     }
