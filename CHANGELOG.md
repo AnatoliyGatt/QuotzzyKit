@@ -1,3 +1,14 @@
+1.1.0 / 2016-08-01
+==================
+
+* Update Quotzzy.swift
+* Add OSX specific files and directories to .gitignore
+* Update README.md
+* Update QuotzzyTests.swift
+* Update getQuote() to accept 'Language' enum value instead of 'String' as 'lang' parameter in Quotzzy.swift
+* Add 'Language' enum to Quotzzy.swift
+* Add codecov.yml
+
 1.0.3 / 2016-08-01
 ==================
 
