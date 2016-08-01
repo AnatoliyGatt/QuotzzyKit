@@ -34,7 +34,7 @@ public enum Language : String {
 
 public class Quotzzy {
     
-    // MARK: - Properties
+    // MARK: - Private Properties
     
     private static let quotzzy = Quotzzy()
     
