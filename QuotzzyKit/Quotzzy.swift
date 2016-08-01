@@ -111,16 +111,7 @@ public class Quotzzy {
                         parsedResponse = nil
                         completionHandler(quote: nil, error: parsingError)
                     }
-                    if let errorCode = parsedResponse!["code"], errorMessage = parsedResponse!["message"] {
-                        let invalidLanguageError = NSError(domain: "com.anatoliygatt.QuotzzyKit", code: errorCode as! Int, userInfo: [
-                            NSLocalizedDescriptionKey: "\(errorMessage as! String).",
-                            NSLocalizedRecoverySuggestionErrorKey: "Pass either \"ru\" or \"en\" as a response language.",
-                            NSLocalizedFailureReasonErrorKey: "You passed \"\(lang!)\" as a response language. Only \"ru\" and \"en\" are supported at the moment."
-                            ])
-                        completionHandler(quote: nil, error: invalidLanguageError)
-                    } else {
-                        completionHandler(quote: Quote(quote: parsedResponse!), error: nil)
-                    }
+                    completionHandler(quote: Quote(quote: parsedResponse!), error: nil)
                 }
             } else {
                 completionHandler(quote: nil, error: error)
