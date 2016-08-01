@@ -27,6 +27,11 @@
 
 import Foundation
 
+public enum Language : String {
+    case English = "en"
+    case Russian = "ru"
+}
+
 public class Quotzzy {
     
     // MARK: - Properties
