@@ -61,7 +61,7 @@ public class Quotzzy {
             "TE": "trailers, deflate",
             "User-Agent": "QuotzzyKit/\(VERSION)"
         ]
-        sessionConfiguration.HTTPCookieAcceptPolicy = NSHTTPCookieAcceptPolicy.Never
+        sessionConfiguration.HTTPCookieAcceptPolicy = .Never
         sessionConfiguration.HTTPCookieStorage = nil
         sessionConfiguration.HTTPShouldSetCookies = false
         sessionConfiguration.URLCredentialStorage = nil
@@ -96,7 +96,7 @@ public class Quotzzy {
         
         quoteRequestURLComponents.queryItems = queryItems
         
-        let quoteRequest: NSMutableURLRequest = NSMutableURLRequest(URL: quoteRequestURLComponents.URL! , cachePolicy: NSURLRequestCachePolicy.UseProtocolCachePolicy, timeoutInterval: 60)
+        let quoteRequest: NSMutableURLRequest = NSMutableURLRequest(URL: quoteRequestURLComponents.URL! , cachePolicy: .UseProtocolCachePolicy, timeoutInterval: 60)
         quoteRequest.addValue(dateFormatter.stringFromDate(NSDate()), forHTTPHeaderField: "Date")
         quoteRequest.HTTPMethod = "GET"
         
