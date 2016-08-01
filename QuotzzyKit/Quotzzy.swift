@@ -80,15 +80,15 @@ public class Quotzzy {
     
     // MARK: - Endpoints
     
-    public func getQuote(lang: String?, key: Int?, completionHandler: (quote: Quote?, error: NSError?) -> Void) {
+    public func getQuote(lang: Language?, key: Int?, completionHandler: (quote: Quote?, error: NSError?) -> Void) {
         let quoteRequestURLComponents: NSURLComponents = NSURLComponents()
         quoteRequestURLComponents.scheme = "http"
         quoteRequestURLComponents.host = "www.quotzzy.co"
         quoteRequestURLComponents.path = "/api/quote"
         
         var queryItems: [NSURLQueryItem] = []
-        if let language = lang where language.characters.count > 0 {
-            queryItems.append(NSURLQueryItem(name: "lang", value: language))
+        if let language = lang where language.rawValue.characters.count > 0 {
+            queryItems.append(NSURLQueryItem(name: "lang", value: language.rawValue))
         }
         if let numericKey = key where numericKey != -1 {
             queryItems.append(NSURLQueryItem(name: "key", value: String(numericKey)))
