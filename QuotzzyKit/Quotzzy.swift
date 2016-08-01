@@ -55,7 +55,7 @@ public class Quotzzy {
             "Accept-Charset": "utf-8",
             "Accept-Encoding": "*",
             "Accept-Language": "en-US, ru-RU",
-            "Accept-Datetime": dateFormatter.stringFromDate(NSDate()),
+            "Accept-Datetime": "Thu, 31 May 2007 20:35:00 GMT",
             "Cache-Control": "no-cache",
             "Pragma": "no-cache",
             "TE": "trailers, deflate",
