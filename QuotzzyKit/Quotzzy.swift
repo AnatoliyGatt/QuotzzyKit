@@ -95,7 +95,7 @@ public class Quotzzy {
         quoteRequest.addValue(dateFormatter.stringFromDate(NSDate()), forHTTPHeaderField: "Date")
         quoteRequest.HTTPMethod = "GET"
         
-        URLSession.downloadTaskWithRequest(quoteRequest, completionHandler: {(url: NSURL?, response: NSURLResponse?, error: NSError?) -> Void in
+        URLSession.downloadTaskWithRequest(quoteRequest, completionHandler: { (url: NSURL?, response: NSURLResponse?, error: NSError?) -> Void in
             if error == nil {
                 let responseData = NSData(contentsOfURL: url!)
                 if responseData != nil {
