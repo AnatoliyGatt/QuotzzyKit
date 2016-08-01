@@ -56,7 +56,7 @@ public class QuotzzyTests: XCTestCase {
 
     public func testQuotzzyRespondWithValidQuoteObjectWhenRequestedWithLanguageSetToEnglish() {
         let expectation = expectationWithDescription("Quote request should succeed")
-        Quotzzy.sharedClient().getQuote("en", key: nil, completionHandler: { (quote: Quote?, error: NSError?) -> Void in
+        Quotzzy.sharedClient().getQuote(.English, key: nil, completionHandler: { (quote: Quote?, error: NSError?) -> Void in
             XCTAssertNil(error)
             self.validateQuote(quote)
             expectation.fulfill()
@@ -66,7 +66,7 @@ public class QuotzzyTests: XCTestCase {
 
     public func testQuotzzyRespondWithValidQuoteObjectWhenRequestedWithLanguageSetToEnglishAndManuallySetKey() {
         let expectation = expectationWithDescription("Quote request should succeed")
-        Quotzzy.sharedClient().getQuote("en", key: 123456, completionHandler: { (quote: Quote?, error: NSError?) -> Void in
+        Quotzzy.sharedClient().getQuote(.English, key: 123456, completionHandler: { (quote: Quote?, error: NSError?) -> Void in
             XCTAssertNil(error)
             self.validateQuote(quote)
             expectation.fulfill()
@@ -76,7 +76,7 @@ public class QuotzzyTests: XCTestCase {
     
     public func testQuotzzyRespondWithValidQuoteObjectWhenRequestedWithLanguageSetToRussian() {
         let expectation = expectationWithDescription("Quote request should succeed")
-        Quotzzy.sharedClient().getQuote("ru", key: nil, completionHandler: { (quote: Quote?, error: NSError?) -> Void in
+        Quotzzy.sharedClient().getQuote(.Russian, key: nil, completionHandler: { (quote: Quote?, error: NSError?) -> Void in
             XCTAssertNil(error)
             self.validateQuote(quote)
             expectation.fulfill()
@@ -86,21 +86,9 @@ public class QuotzzyTests: XCTestCase {
 
     public func testQuotzzyRespondWithValidQuoteObjectWhenRequestedWithLanguageSetToRussianAndManuallySetKey() {
         let expectation = expectationWithDescription("Quote request should succeed")
-        Quotzzy.sharedClient().getQuote("ru", key: 123456, completionHandler: { (quote: Quote?, error: NSError?) -> Void in
+        Quotzzy.sharedClient().getQuote(.Russian, key: 123456, completionHandler: { (quote: Quote?, error: NSError?) -> Void in
             XCTAssertNil(error)
             self.validateQuote(quote)
-            expectation.fulfill()
-        })
-        self.waitForExpectationsWithTimeout(60, handler: nil)
-    }
-    
-    public func testQuotzzyRespondWithErrorObjectWhenRequestedWithInvalidLanguage() {
-        let expectation = expectationWithDescription("Quote request should fail")
-        Quotzzy.sharedClient().getQuote("jp", key: nil, completionHandler: { (quote: Quote?, error: NSError?) -> Void in
-            XCTAssertNotNil(error, "error should not be nil")
-            XCTAssertEqual(error?.domain, "com.anatoliygatt.QuotzzyKit", "errorObject.domain should be equal to com.anatoliygatt.QuotzzyKit")
-            XCTAssertEqual(error?.code, 401, "errorObject.code should be equal to 401")
-            XCTAssertEqual(error?.localizedDescription, "Invalid language.", "errorObject.description should be equal to \"Invalid language.\"")
             expectation.fulfill()
         })
         self.waitForExpectationsWithTimeout(60, handler: nil)
