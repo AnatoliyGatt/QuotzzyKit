@@ -106,7 +106,7 @@ public class Quotzzy {
                 if responseData != nil {
                     let parsedResponse: Dictionary<String, AnyObject>?
                     do {
-                        parsedResponse = try NSJSONSerialization.JSONObjectWithData(responseData!, options: NSJSONReadingOptions.MutableContainers) as? Dictionary<String, AnyObject>
+                        parsedResponse = try NSJSONSerialization.JSONObjectWithData(responseData!, options: .MutableContainers) as? Dictionary<String, AnyObject>
                     } catch let parsingError as NSError {
                         parsedResponse = nil
                         completionHandler(quote: nil, error: parsingError)
