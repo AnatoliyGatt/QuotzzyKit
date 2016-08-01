@@ -34,12 +34,12 @@ $ gem install cocoapods
 To integrate QuotzzyKit into your Xcode project using CocoaPods, specify it in your `Podfile`:
 
 ```ruby
-source 'https://github.com/CocoaPods/Specs.git'
-platform :ios, '8.0'
+source "https://github.com/CocoaPods/Specs.git"
+platform :ios, "8.0"
 use_frameworks!
 
-target '<Your Target Name>' do
-    pod 'QuotzzyKit', '~> 1.0.3'
+target "<Your Target Name>" do
+    pod "QuotzzyKit", "~> 1.0.3"
 end
 ```
 
