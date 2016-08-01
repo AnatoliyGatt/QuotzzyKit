@@ -106,7 +106,7 @@ Requests random quote.
 
 #### Parameters
 
-- `lang` - Response language (.English or .Russian).
+- `lang` - Response language (`.English` or `.Russian`).
 - `key` - Numeric key, which influences the choice of quotation, the maximum length is 6 digits.
 - `completionHandler` - Callback when response comes in.
 
