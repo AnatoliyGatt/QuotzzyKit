@@ -9,5 +9,5 @@ Pod::Spec.new do |spec|
     spec.source = { :git => "https://github.com/AnatoliyGatt/QuotzzyKit.git", :tag => "v#{spec.version}"}
     spec.source_files = "QuotzzyKit/*.swift"
     spec.requires_arc = true
-    spec.cocoapods_version = ">= 0.36"
+    spec.cocoapods_version = ">= 0.39"
 end
