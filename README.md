@@ -30,7 +30,7 @@ An elegant client for Quotzzy API written in Swift.
 $ gem install cocoapods
 ```
 
-> CocoaPods 0.36+ is required to build QuotzzyKit.
+> CocoaPods 0.39+ is required to build QuotzzyKit.
 
 To integrate QuotzzyKit into your Xcode project using CocoaPods, specify it in your `Podfile`:
 
