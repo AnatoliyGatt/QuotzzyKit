@@ -1,3 +1,15 @@
+1.1.1 / 2016-08-02
+==================
+
+* Update README.md
+* Update specification's CocoaPods version in QuotzzyKit.podspec
+* Configure framework to use app extension API only
+* Change project format from 'Xcode 3.2-compatible' to 'Xcode 6.3-compatible'
+* Update QuotzzyKit.podspec
+* Update Quotzzy.swift
+* Change badges style from flat-square to flat in README.md
+* Add CODEBEAT badge to README.md
+
 1.1.0 / 2016-08-01
 ==================
 
