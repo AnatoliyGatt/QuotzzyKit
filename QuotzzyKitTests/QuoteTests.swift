@@ -25,9 +25,9 @@
 //  THE SOFTWARE.
 //
 
-@testable import QuotzzyKit
 import Foundation
 import XCTest
+@testable import QuotzzyKit
 
 public class QuoteTests: XCTestCase {
     public func testQuoteInstantiationWithAuthor() {
