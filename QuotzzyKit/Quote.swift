@@ -29,7 +29,7 @@ import Foundation
 
 public struct Quote {
     
-    // MARK: - Properties
+    // MARK: - Public Properties
     
     public let text: String
     public let author: Author?
