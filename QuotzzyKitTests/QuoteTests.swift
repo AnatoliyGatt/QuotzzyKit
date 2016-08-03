@@ -30,7 +30,8 @@ import XCTest
 @testable import QuotzzyKit
 
 public class QuoteTests: XCTestCase {
-    public func testQuoteInstantiationWithAuthor() {
+        
+    public func testQuoteInitializationWithAuthor() {
         let quote = Quote(quote: [
             "text": "Ignorance never settle a question.",
             "author": [
