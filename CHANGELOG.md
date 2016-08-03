@@ -1,3 +1,15 @@
+1.1.2 / 2016-08-03
+==================
+
+* Update QuotzzyTests.swift
+* Update QuoteTests.swift
+* Update test name from testQuoteInstantiationWithoutAuthor() to testQuoteInitializationWithoutAuthor()
+* Update test name from testQuoteInstantiationWithAuthor() to testQuoteInitializationWithAuthor()
+* Import Foundation.framework to QuoteTests.swift
+* Update Author.swift
+* Update Quote.swift
+* Remove CocoaPods pod downloads badge from README.md
+
 1.1.1 / 2016-08-02
 ==================
 
