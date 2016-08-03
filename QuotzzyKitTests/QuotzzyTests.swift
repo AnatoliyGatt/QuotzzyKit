@@ -30,6 +30,9 @@ import XCTest
 @testable import QuotzzyKit
 
 public class QuotzzyTests: XCTestCase {
+    
+    // MARK: - Validation Functions
+    
     public func validateQuote(quote: Quote?) {
         XCTAssertTrue(quote != nil, "quote should not be nil")
         XCTAssertNotNil(quote?.text, "quote.text should not be nil")
