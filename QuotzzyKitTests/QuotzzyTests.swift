@@ -38,6 +38,8 @@ public class QuotzzyTests: XCTestCase {
         XCTAssertNotNil(quote?.text, "quote.text should not be nil")
     }
     
+    // MARK: - Response Validation Tests
+    
     public func testQuotzzyRespondWithValidQuoteObjectWhenRequestedWithNoParameters() {
         let expectation = expectationWithDescription("Quote request should succeed")
         Quotzzy.sharedClient().getQuote(nil, key: nil, completionHandler: { (quote: Quote?, error: NSError?) -> Void in
