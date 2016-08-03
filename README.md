@@ -2,7 +2,6 @@
 
 [![CocoaPods Pod Version][cocoapods-pod-version-badge]][cocoapods-pod-url]
 [![CocoaPods Pod License][cocoapods-pod-license-badge]][cocoapods-pod-license-url]
-[![CocoaPods Pod Downloads][cocoapods-pod-downloads-badge]][cocoapods-pod-url]
 [![CocoaPods Pod Platform][cocoapods-pod-platform-badge]][cocoapods-pod-url]
 [![CocoaPods Pod Language][cocoapods-pod-language-badge]][cocoapods-pod-url]
 [![Carthage Compatible][carthage-compatible-badge]][carthage-github-repository-url]
@@ -162,8 +161,6 @@ Distributed under the [MIT License](LICENSE).
 
 [cocoapods-pod-license-badge]: https://img.shields.io/cocoapods/l/QuotzzyKit.svg?style=flat
 [cocoapods-pod-license-url]: http://opensource.org/licenses/MIT
-
-[cocoapods-pod-downloads-badge]: https://img.shields.io/cocoapods/dm/QuotzzyKit.svg?style=flat
 
 [cocoapods-pod-platform-badge]: https://img.shields.io/cocoapods/p/QuotzzyKit.svg?style=flat
 
