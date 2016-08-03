@@ -29,7 +29,7 @@ import Foundation
 
 public struct Author {
     
-    // MARK: - Properties
+    // MARK: - Public Properties
     
     public let name: String
     public let wiki: String
