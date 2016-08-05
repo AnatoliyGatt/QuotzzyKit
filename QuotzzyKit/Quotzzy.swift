@@ -87,7 +87,7 @@ public class Quotzzy {
         quoteRequestURLComponents.path = "/api/quote"
 
         var queryItems: [NSURLQueryItem] = []
-        if let language = lang where language.rawValue.characters.count > 0 {
+        if let language = lang where !language.rawValue.isEmpty {
             queryItems.append(NSURLQueryItem(name: "lang", value: language.rawValue))
         }
         if let numericKey = key where numericKey != -1 {
