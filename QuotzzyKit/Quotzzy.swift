@@ -71,15 +71,15 @@ public class Quotzzy {
         URLSession = NSURLSession(configuration: sessionConfiguration)
         URLSession.sessionDescription = "QuotzzyKit URL Session"
     }
-    
+
     // MARK: - Singleton
-    
+
     public class func sharedClient() -> Quotzzy {
         return quotzzy
     }
-    
+
     // MARK: - Endpoints
-    
+
     public func getQuote(lang: Language?, key: Int?, completionHandler: (quote: Quote?, error: NSError?) -> Void) {
         let quoteRequestURLComponents: NSURLComponents = NSURLComponents()
         quoteRequestURLComponents.scheme = "http"
