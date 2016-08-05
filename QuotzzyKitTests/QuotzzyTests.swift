@@ -49,7 +49,7 @@ public class QuotzzyTests: XCTestCase {
         })
         self.waitForExpectationsWithTimeout(60, handler: nil)
     }
-    
+
     public func testQuotzzyRespondWithValidQuoteObjectWhenRequestedWithManuallySetKey() {
         let expectation = expectationWithDescription("Quote request should succeed")
         Quotzzy.sharedClient().getQuote(nil, key: 123456, completionHandler: { (quote: Quote?, error: NSError?) -> Void in
@@ -79,7 +79,7 @@ public class QuotzzyTests: XCTestCase {
         })
         self.waitForExpectationsWithTimeout(60, handler: nil)
     }
-    
+
     public func testQuotzzyRespondWithValidQuoteObjectWhenRequestedWithLanguageSetToRussian() {
         let expectation = expectationWithDescription("Quote request should succeed")
         Quotzzy.sharedClient().getQuote(.Russian, key: nil, completionHandler: { (quote: Quote?, error: NSError?) -> Void in
