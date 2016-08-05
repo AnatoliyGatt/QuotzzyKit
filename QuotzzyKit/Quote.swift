@@ -28,14 +28,14 @@
 import Foundation
 
 public struct Quote {
-    
+
     // MARK: - Public Properties
-    
+
     public let text: String
     public let author: Author?
 
     // MARK: - Lifecycle
-    
+
     public init(quote: Dictionary<String, AnyObject?>) {
         text = quote["text"] as! String
         guard let author = quote["author"] as? Dictionary<String, String> where author.values.count > 0 else {
