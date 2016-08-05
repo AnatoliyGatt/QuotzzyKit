@@ -2,4 +2,6 @@ disabled_rules:
   - force_cast
   - line_length
   - variable_name
+opt_in_rules:
+  - empty_count
 reporter: xcode
