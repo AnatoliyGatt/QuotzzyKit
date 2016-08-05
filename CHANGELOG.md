@@ -1,3 +1,18 @@
+1.1.3 / 2016-08-05
+==================
+
+* Fix SwiftLint error in Quotzzy.swift
+* Fix SwiftLint error in Quote.swift
+* Update .swiftlint.yml
+* Fix SwiftLint warnings in QuotzzyTests.swift
+* Fix SwiftLint warnings in QuoteTests.swift
+* Fix SwiftLint warnings in Quotzzy.swift
+* Fix SwiftLint warnings in Quote.swift
+* Fix SwiftLint warnings in Author.swift
+* Add .swiftlint.yml
+* Add SwiftLint run script phase to QuotzzyKit build phases
+* Add newline at the end of .travis.yml
+
 1.1.2 / 2016-08-03
 ==================
 
