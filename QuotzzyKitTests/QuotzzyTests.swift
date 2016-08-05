@@ -30,16 +30,16 @@ import XCTest
 @testable import QuotzzyKit
 
 public class QuotzzyTests: XCTestCase {
-    
+
     // MARK: - Validation Functions
-    
+
     public func validateQuote(quote: Quote?) {
         XCTAssertTrue(quote != nil, "quote should not be nil")
         XCTAssertNotNil(quote?.text, "quote.text should not be nil")
     }
-    
+
     // MARK: - Response Validation Tests
-    
+
     public func testQuotzzyRespondWithValidQuoteObjectWhenRequestedWithNoParameters() {
         let expectation = expectationWithDescription("Quote request should succeed")
         Quotzzy.sharedClient().getQuote(nil, key: nil, completionHandler: { (quote: Quote?, error: NSError?) -> Void in
