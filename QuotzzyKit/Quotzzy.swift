@@ -27,17 +27,17 @@
 
 import Foundation
 
-public enum Language : String {
+public enum Language: String {
     case English = "en"
     case Russian = "ru"
 }
 
 public class Quotzzy {
-    
+
     // MARK: - Private Properties
-    
+
     private static let quotzzy = Quotzzy()
-    
+
     private let VERSION: String = NSBundle(forClass: Quotzzy.self).objectForInfoDictionaryKey("CFBundleShortVersionString")! as! String
     private let dateFormatter: NSDateFormatter = NSDateFormatter()
     private let URLSession: NSURLSession
