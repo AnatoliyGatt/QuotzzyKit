@@ -28,14 +28,14 @@
 import Foundation
 
 public struct Author {
-    
+
     // MARK: - Public Properties
-    
+
     public let name: String
     public let wiki: String
-    
+
     // MARK: - Lifecycle
-    
+
     public init(author: Dictionary<String, String>) {
         name = author["name"]!
         wiki = author["wiki"]!
