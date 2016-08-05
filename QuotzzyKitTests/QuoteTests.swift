@@ -30,9 +30,9 @@ import XCTest
 @testable import QuotzzyKit
 
 public class QuoteTests: XCTestCase {
-    
+
     // MARK: - Initialization Tests
-    
+
     public func testQuoteInitializationWithAuthor() {
         let quote = Quote(quote: [
             "text": "Ignorance never settle a question.",
@@ -41,7 +41,7 @@ public class QuoteTests: XCTestCase {
                 "wiki": "http://en.wikipedia.com/wiki/Benjamin%20Disraeli"
             ]
         ])
-        
+
         XCTAssertNotNil(quote, "quote should not be nil")
         XCTAssertEqual(quote.text, "Ignorance never settle a question.", "quote.text should be equal to \"Ignorance never settle a question.\"")
         XCTAssertNotNil(quote.author, "quote.author should not be nil")
