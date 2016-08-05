@@ -96,7 +96,7 @@ public class Quotzzy {
 
         quoteRequestURLComponents.queryItems = queryItems
 
-        let quoteRequest: NSMutableURLRequest = NSMutableURLRequest(URL: quoteRequestURLComponents.URL! , cachePolicy: .UseProtocolCachePolicy, timeoutInterval: 60)
+        let quoteRequest: NSMutableURLRequest = NSMutableURLRequest(URL: quoteRequestURLComponents.URL!, cachePolicy: .UseProtocolCachePolicy, timeoutInterval: 60)
         quoteRequest.addValue(dateFormatter.stringFromDate(NSDate()), forHTTPHeaderField: "Date")
         quoteRequest.HTTPMethod = "GET"
 
