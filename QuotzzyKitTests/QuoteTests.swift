@@ -48,7 +48,7 @@ public class QuoteTests: XCTestCase {
         XCTAssertEqual(quote.author?.name, "Benjamin Disraeli", "quote.author.name should be equal to \"Benjamin Disraeli\"")
         XCTAssertEqual(quote.author?.wiki, "http://en.wikipedia.com/wiki/Benjamin%20Disraeli", "quote.author.wiki should be equal to \"http://en.wikipedia.com/wiki/Benjamin%20Disraeli\"")
     }
-    
+
     public func testQuoteInitializationWithoutAuthor() {
         let quote = Quote(quote: [
             "text": "Ignorance never settle a question."
