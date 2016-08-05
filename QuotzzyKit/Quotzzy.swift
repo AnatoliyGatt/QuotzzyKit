@@ -85,7 +85,7 @@ public class Quotzzy {
         quoteRequestURLComponents.scheme = "http"
         quoteRequestURLComponents.host = "www.quotzzy.co"
         quoteRequestURLComponents.path = "/api/quote"
-        
+
         var queryItems: [NSURLQueryItem] = []
         if let language = lang where language.rawValue.characters.count > 0 {
             queryItems.append(NSURLQueryItem(name: "lang", value: language.rawValue))
@@ -93,13 +93,13 @@ public class Quotzzy {
         if let numericKey = key where numericKey != -1 {
             queryItems.append(NSURLQueryItem(name: "key", value: String(numericKey)))
         }
-        
+
         quoteRequestURLComponents.queryItems = queryItems
-        
+
         let quoteRequest: NSMutableURLRequest = NSMutableURLRequest(URL: quoteRequestURLComponents.URL! , cachePolicy: .UseProtocolCachePolicy, timeoutInterval: 60)
         quoteRequest.addValue(dateFormatter.stringFromDate(NSDate()), forHTTPHeaderField: "Date")
         quoteRequest.HTTPMethod = "GET"
-        
+
         URLSession.downloadTaskWithRequest(quoteRequest, completionHandler: { (url: NSURL?, response: NSURLResponse?, error: NSError?) -> Void in
             if error == nil {
                 let responseData = NSData(contentsOfURL: url!)
