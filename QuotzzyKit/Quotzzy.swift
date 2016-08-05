@@ -41,14 +41,14 @@ public class Quotzzy {
     private let VERSION: String = NSBundle(forClass: Quotzzy.self).objectForInfoDictionaryKey("CFBundleShortVersionString")! as! String
     private let dateFormatter: NSDateFormatter = NSDateFormatter()
     private let URLSession: NSURLSession
-    
+
     // MARK: - Lifecycle
-    
+
     private init() {
         dateFormatter.locale = NSLocale(localeIdentifier: "en_US")
         dateFormatter.timeZone = NSTimeZone(name: "GMT")
         dateFormatter.dateFormat = "EEE, dd MMM yyyy HH:mm:ss z"
-        
+
         let sessionConfiguration = NSURLSessionConfiguration.defaultSessionConfiguration()
         sessionConfiguration.HTTPAdditionalHeaders = [
             "Accept": "application/json",
@@ -67,7 +67,7 @@ public class Quotzzy {
         sessionConfiguration.URLCredentialStorage = nil
         sessionConfiguration.URLCache = nil
         sessionConfiguration.sessionSendsLaunchEvents = false
-        
+
         URLSession = NSURLSession(configuration: sessionConfiguration)
         URLSession.sessionDescription = "QuotzzyKit URL Session"
     }
