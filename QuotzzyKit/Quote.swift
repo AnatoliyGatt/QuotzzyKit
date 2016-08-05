@@ -38,7 +38,7 @@ public struct Quote {
 
     public init(quote: Dictionary<String, AnyObject?>) {
         text = quote["text"] as! String
-        guard let author = quote["author"] as? Dictionary<String, String> where author.values.count > 0 else {
+        guard let author = quote["author"] as? Dictionary<String, String> where !author.isEmpty else {
             self.author = nil
             return
         }
