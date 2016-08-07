@@ -30,9 +30,9 @@ import XCTest
 @testable import QuotzzyKit
 
 public class QuotzzyTests: XCTestCase {
-    
+
     // MARK: - Private Properties
-    
+
     private static let TIMEOUT: NSTimeInterval = 60.0
 
     // MARK: - Validation Functions
