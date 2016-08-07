@@ -30,6 +30,8 @@ import XCTest
 @testable import QuotzzyKit
 
 public class QuotzzyTests: XCTestCase {
+    
+    private static let TIMEOUT: NSTimeInterval = 60.0
 
     // MARK: - Validation Functions
 
@@ -47,7 +49,7 @@ public class QuotzzyTests: XCTestCase {
             self.validateQuote(quote)
             expectation.fulfill()
         })
-        self.waitForExpectationsWithTimeout(60, handler: nil)
+        self.waitForExpectationsWithTimeout(TIMEOUT, handler: nil)
     }
 
     public func testQuotzzyRespondWithValidQuoteObjectWhenRequestedWithManuallySetKey() {
@@ -57,7 +59,7 @@ public class QuotzzyTests: XCTestCase {
             self.validateQuote(quote)
             expectation.fulfill()
         })
-        self.waitForExpectationsWithTimeout(60, handler: nil)
+        self.waitForExpectationsWithTimeout(TIMEOUT, handler: nil)
     }
 
     public func testQuotzzyRespondWithValidQuoteObjectWhenRequestedWithLanguageSetToEnglish() {
@@ -67,7 +69,7 @@ public class QuotzzyTests: XCTestCase {
             self.validateQuote(quote)
             expectation.fulfill()
         })
-        self.waitForExpectationsWithTimeout(60, handler: nil)
+        self.waitForExpectationsWithTimeout(TIMEOUT, handler: nil)
     }
 
     public func testQuotzzyRespondWithValidQuoteObjectWhenRequestedWithLanguageSetToEnglishAndManuallySetKey() {
@@ -77,7 +79,7 @@ public class QuotzzyTests: XCTestCase {
             self.validateQuote(quote)
             expectation.fulfill()
         })
-        self.waitForExpectationsWithTimeout(60, handler: nil)
+        self.waitForExpectationsWithTimeout(TIMEOUT, handler: nil)
     }
 
     public func testQuotzzyRespondWithValidQuoteObjectWhenRequestedWithLanguageSetToRussian() {
@@ -87,7 +89,7 @@ public class QuotzzyTests: XCTestCase {
             self.validateQuote(quote)
             expectation.fulfill()
         })
-        self.waitForExpectationsWithTimeout(60, handler: nil)
+        self.waitForExpectationsWithTimeout(TIMEOUT, handler: nil)
     }
 
     public func testQuotzzyRespondWithValidQuoteObjectWhenRequestedWithLanguageSetToRussianAndManuallySetKey() {
@@ -97,6 +99,6 @@ public class QuotzzyTests: XCTestCase {
             self.validateQuote(quote)
             expectation.fulfill()
         })
-        self.waitForExpectationsWithTimeout(60, handler: nil)
+        self.waitForExpectationsWithTimeout(TIMEOUT, handler: nil)
     }
 }
