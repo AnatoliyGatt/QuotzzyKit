@@ -33,9 +33,9 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "DF57B7151D5B8F8C003F9A88"
-               BuildableName = "QuotzzyKitTests.xctest"
-               BlueprintName = "QuotzzyKitTests"
+               BlueprintIdentifier = "DF57B7631D5BA524003F9A88"
+               BuildableName = "QuotzzyKit iOS Tests.xctest"
+               BlueprintName = "QuotzzyKit iOS Tests"
                ReferencedContainer = "container:QuotzzyKit.xcodeproj">
             </BuildableReference>
          </TestableReference>
