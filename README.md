@@ -15,6 +15,7 @@ An elegant client for Quotzzy API written in Swift.
 
 - iOS 8.0+
 - watchOS 2.0+
+- tvOS 9.0+
 - Swift 2.1+
 - Xcode 7.1+
 
