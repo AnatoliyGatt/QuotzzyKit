@@ -304,9 +304,9 @@
 			projectRoot = "";
 			targets = (
 				DF57B7031D5B8DEE003F9A88 /* QuotzzyKit iOS */,
+				DF57B7631D5BA524003F9A88 /* QuotzzyKit iOS Tests */,
 				DF57B7291D5B9454003F9A88 /* QuotzzyKit watchOS */,
 				DF57B73C1D5B9837003F9A88 /* QuotzzyKit tvOS */,
-				DF57B7631D5BA524003F9A88 /* QuotzzyKit iOS Tests */,
 				DF57B7741D5BA760003F9A88 /* QuotzzyKit tvOS Tests */,
 			);
 		};
