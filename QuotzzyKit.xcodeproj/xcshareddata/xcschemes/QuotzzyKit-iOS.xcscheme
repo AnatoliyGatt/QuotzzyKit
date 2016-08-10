@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "DF4DBA141D452C4300BD4F6C"
+               BlueprintIdentifier = "DF57B7031D5B8DEE003F9A88"
                BuildableName = "QuotzzyKit.framework"
-               BlueprintName = "QuotzzyKit"
+               BlueprintName = "QuotzzyKit-iOS"
                ReferencedContainer = "container:QuotzzyKit.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -33,7 +33,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "DF4DBA1E1D452C4300BD4F6C"
+               BlueprintIdentifier = "DF57B7151D5B8F8C003F9A88"
                BuildableName = "QuotzzyKitTests.xctest"
                BlueprintName = "QuotzzyKitTests"
                ReferencedContainer = "container:QuotzzyKit.xcodeproj">
@@ -43,9 +43,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DF4DBA141D452C4300BD4F6C"
+            BlueprintIdentifier = "DF57B7031D5B8DEE003F9A88"
             BuildableName = "QuotzzyKit.framework"
-            BlueprintName = "QuotzzyKit"
+            BlueprintName = "QuotzzyKit-iOS"
             ReferencedContainer = "container:QuotzzyKit.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -65,9 +65,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DF4DBA141D452C4300BD4F6C"
+            BlueprintIdentifier = "DF57B7031D5B8DEE003F9A88"
             BuildableName = "QuotzzyKit.framework"
-            BlueprintName = "QuotzzyKit"
+            BlueprintName = "QuotzzyKit-iOS"
             ReferencedContainer = "container:QuotzzyKit.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -83,9 +83,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DF4DBA141D452C4300BD4F6C"
+            BlueprintIdentifier = "DF57B7031D5B8DEE003F9A88"
             BuildableName = "QuotzzyKit.framework"
-            BlueprintName = "QuotzzyKit"
+            BlueprintName = "QuotzzyKit-iOS"
             ReferencedContainer = "container:QuotzzyKit.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
