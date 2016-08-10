@@ -13,6 +13,7 @@ An elegant client for Quotzzy API written in Swift.
 
 ## Requirements
 
+- macOS 10.10+
 - iOS 8.0+
 - watchOS 2.0+
 - tvOS 9.0+

@@ -66,7 +66,9 @@ public class Quotzzy {
         sessionConfiguration.HTTPShouldSetCookies = false
         sessionConfiguration.URLCredentialStorage = nil
         sessionConfiguration.URLCache = nil
-        sessionConfiguration.sessionSendsLaunchEvents = false
+        #if os(iOS) || os(watchOS) || os(tvOS)
+            sessionConfiguration.sessionSendsLaunchEvents = false
+        #endif
 
         URLSession = NSURLSession(configuration: sessionConfiguration)
         URLSession.sessionDescription = "QuotzzyKit URL Session"
