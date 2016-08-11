@@ -10,7 +10,7 @@ Pod::Spec.new do |spec|
     spec.watchos.deployment_target = "2.0"
    	spec.tvos.deployment_target = "9.0"
     spec.source = { :git => "https://github.com/AnatoliyGatt/QuotzzyKit.git", :tag => "v#{spec.version}"}
-    spec.source_files = "QuotzzyKit/*.swift"
+    spec.source_files = "Sources/*.swift"
     spec.requires_arc = true
     spec.cocoapods_version = ">= 0.39"
 end
