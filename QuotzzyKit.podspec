@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
     spec.name = "QuotzzyKit"
-    spec.version = "2.0.0"
+    spec.version = "2.0.1"
     spec.summary = "An elegant client for Quotzzy API written in Swift."
     spec.homepage = "https://github.com/AnatoliyGatt/QuotzzyKit"
     spec.license = { :type => "MIT", :file => "LICENSE" }
