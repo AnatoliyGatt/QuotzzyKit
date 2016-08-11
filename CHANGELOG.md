@@ -1,3 +1,22 @@
+2.0.0 / 2016-08-11
+==================
+
+* Update .travis.yml
+* Add Xcode workspace
+* Fix .travis.yml script
+* Update .travis.yml to run tests against macOS 10.11 and tvOS 9.2
+* Add support for macOS 10.10+
+* Update Xcode project
+* Add unit testing bundle for tvOS target
+* Add support for tvOS 9.0+
+* Add support for watchOS 2.0+
+* Update xcode_scheme in .travis.yml
+* Restructure Xcode project
+* Fix QuotzzyTests.swift
+* Fix SwiftLint warnings in QuotzzyTests.swift
+* Update QuotzzyTests.swift
+* Add TIMEOUT constant to QuotzzyTests.swift
+
 1.1.3 / 2016-08-05
 ==================
 
