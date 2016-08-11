@@ -22,7 +22,7 @@ script:
   - xcodebuild -version
   - xcodebuild -showsdks
   - if [$RUN_TESTS == "YES"]; then
-      xcodebuild test -project "$PROJECT" -scheme "$SCHEME" -sdk "$SDK" -destination "$DESTINATION"
+      xcodebuild test -project "$PROJECT" -scheme "$SCHEME" -sdk "$SDK" -destination "$DESTINATION";
     fi
 after_success:
   - bash <(curl -s https://codecov.io/bash)
