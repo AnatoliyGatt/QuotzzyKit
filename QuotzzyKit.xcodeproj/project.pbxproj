@@ -239,6 +239,7 @@
 				DF57B7001D5B8DEE003F9A88 /* Frameworks */,
 				DF57B7011D5B8DEE003F9A88 /* Headers */,
 				DF57B7021D5B8DEE003F9A88 /* Resources */,
+				DF57B7EE1D5DD71B003F9A88 /* SwiftLint */,
 			);
 			buildRules = (
 			);
@@ -468,6 +469,20 @@
 
 /* Begin PBXShellScriptBuildPhase section */
 		DF57B7ED1D5DD6B7003F9A88 /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n    swiftlint\nelse\n    echo \"SwiftLint does not exist, download from https://github.com/realm/SwiftLint\"\nfi";
+		};
+		DF57B7EE1D5DD71B003F9A88 /* SwiftLint */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
