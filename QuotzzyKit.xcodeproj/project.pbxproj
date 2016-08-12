@@ -32,7 +32,6 @@
 		DF57B7AA1D5DD460003F9A88 /* QuotzzyKit.h in Headers */ = {isa = PBXBuildFile; fileRef = DF57B7A71D5DD401003F9A88 /* QuotzzyKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DF57B7AB1D5DD475003F9A88 /* QuotzzyKit.h in Headers */ = {isa = PBXBuildFile; fileRef = DF57B7A71D5DD401003F9A88 /* QuotzzyKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DF57B7AC1D5DD47B003F9A88 /* QuotzzyKit.h in Headers */ = {isa = PBXBuildFile; fileRef = DF57B7A71D5DD401003F9A88 /* QuotzzyKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DF57B7EC1D5DD619003F9A88 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DF57B7A61D5DD401003F9A88 /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -454,7 +453,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF57B7EC1D5DD619003F9A88 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
