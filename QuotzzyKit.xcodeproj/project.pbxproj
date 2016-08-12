@@ -7,31 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DF57B70E1D5B8E84003F9A88 /* QuotzzyKit.h in Headers */ = {isa = PBXBuildFile; fileRef = DF57B6FA1D5B8C22003F9A88 /* QuotzzyKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DF57B70F1D5B8E99003F9A88 /* Author.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF57B6E01D5B8ABA003F9A88 /* Author.swift */; };
 		DF57B7101D5B8E9C003F9A88 /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF57B6E11D5B8ABA003F9A88 /* Quote.swift */; };
 		DF57B7111D5B8E9F003F9A88 /* Quotzzy.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF57B6E21D5B8ABA003F9A88 /* Quotzzy.swift */; };
-		DF57B7321D5B94B4003F9A88 /* QuotzzyKit.h in Headers */ = {isa = PBXBuildFile; fileRef = DF57B6FA1D5B8C22003F9A88 /* QuotzzyKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DF57B7331D5B94B9003F9A88 /* Author.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF57B6E01D5B8ABA003F9A88 /* Author.swift */; };
 		DF57B7341D5B94BD003F9A88 /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF57B6E11D5B8ABA003F9A88 /* Quote.swift */; };
 		DF57B7351D5B94C0003F9A88 /* Quotzzy.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF57B6E21D5B8ABA003F9A88 /* Quotzzy.swift */; };
 		DF57B7461D5B98A5003F9A88 /* Author.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF57B6E01D5B8ABA003F9A88 /* Author.swift */; };
 		DF57B7471D5B98A8003F9A88 /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF57B6E11D5B8ABA003F9A88 /* Quote.swift */; };
 		DF57B7481D5B98AB003F9A88 /* Quotzzy.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF57B6E21D5B8ABA003F9A88 /* Quotzzy.swift */; };
-		DF57B75F1D5BA337003F9A88 /* QuotzzyKit.h in Headers */ = {isa = PBXBuildFile; fileRef = DF57B6FA1D5B8C22003F9A88 /* QuotzzyKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DF57B7691D5BA524003F9A88 /* QuotzzyKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF57B7041D5B8DEE003F9A88 /* QuotzzyKit.framework */; };
 		DF57B76F1D5BA6C5003F9A88 /* QuoteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF57B6E71D5B8AEA003F9A88 /* QuoteTests.swift */; };
 		DF57B7701D5BA6C8003F9A88 /* QuotzzyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF57B6E81D5B8AEA003F9A88 /* QuotzzyTests.swift */; };
 		DF57B77A1D5BA760003F9A88 /* QuotzzyKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF57B73D1D5B9837003F9A88 /* QuotzzyKit.framework */; };
 		DF57B7801D5BA7E1003F9A88 /* QuoteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF57B6E71D5B8AEA003F9A88 /* QuoteTests.swift */; };
 		DF57B7811D5BA7E3003F9A88 /* QuotzzyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF57B6E81D5B8AEA003F9A88 /* QuotzzyTests.swift */; };
-		DF57B78F1D5BA9D7003F9A88 /* QuotzzyKit.h in Headers */ = {isa = PBXBuildFile; fileRef = DF57B6FA1D5B8C22003F9A88 /* QuotzzyKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DF57B7901D5BA9E3003F9A88 /* Author.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF57B6E01D5B8ABA003F9A88 /* Author.swift */; };
 		DF57B7911D5BA9E7003F9A88 /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF57B6E11D5B8ABA003F9A88 /* Quote.swift */; };
 		DF57B7921D5BA9EA003F9A88 /* Quotzzy.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF57B6E21D5B8ABA003F9A88 /* Quotzzy.swift */; };
 		DF57B79C1D5BAE62003F9A88 /* QuotzzyKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF57B7871D5BA97D003F9A88 /* QuotzzyKit.framework */; };
 		DF57B7A21D5BAEC1003F9A88 /* QuoteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF57B6E71D5B8AEA003F9A88 /* QuoteTests.swift */; };
 		DF57B7A31D5BAEC4003F9A88 /* QuotzzyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF57B6E81D5B8AEA003F9A88 /* QuotzzyTests.swift */; };
+		DF57B7A81D5DD401003F9A88 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DF57B7A61D5DD401003F9A88 /* Info.plist */; };
+		DF57B7A91D5DD401003F9A88 /* QuotzzyKit.h in Headers */ = {isa = PBXBuildFile; fileRef = DF57B7A71D5DD401003F9A88 /* QuotzzyKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF57B7AA1D5DD460003F9A88 /* QuotzzyKit.h in Headers */ = {isa = PBXBuildFile; fileRef = DF57B7A71D5DD401003F9A88 /* QuotzzyKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF57B7AB1D5DD475003F9A88 /* QuotzzyKit.h in Headers */ = {isa = PBXBuildFile; fileRef = DF57B7A71D5DD401003F9A88 /* QuotzzyKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF57B7AC1D5DD47B003F9A88 /* QuotzzyKit.h in Headers */ = {isa = PBXBuildFile; fileRef = DF57B7A71D5DD401003F9A88 /* QuotzzyKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,9 +65,7 @@
 		DF57B6E21D5B8ABA003F9A88 /* Quotzzy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Quotzzy.swift; sourceTree = "<group>"; };
 		DF57B6E71D5B8AEA003F9A88 /* QuoteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteTests.swift; sourceTree = "<group>"; };
 		DF57B6E81D5B8AEA003F9A88 /* QuotzzyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotzzyTests.swift; sourceTree = "<group>"; };
-		DF57B6FA1D5B8C22003F9A88 /* QuotzzyKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuotzzyKit.h; sourceTree = "<group>"; };
 		DF57B7041D5B8DEE003F9A88 /* QuotzzyKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = QuotzzyKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DF57B70C1D5B8E14003F9A88 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DF57B7211D5B8FBD003F9A88 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DF57B72A1D5B9454003F9A88 /* QuotzzyKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = QuotzzyKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF57B73D1D5B9837003F9A88 /* QuotzzyKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = QuotzzyKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -74,6 +73,8 @@
 		DF57B7751D5BA760003F9A88 /* QuotzzyKit tvOS Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "QuotzzyKit tvOS Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF57B7871D5BA97D003F9A88 /* QuotzzyKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = QuotzzyKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF57B7971D5BAE62003F9A88 /* QuotzzyKit macOS Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "QuotzzyKit macOS Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF57B7A61D5DD401003F9A88 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF57B7A71D5DD401003F9A88 /* QuotzzyKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuotzzyKit.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,11 +159,10 @@
 		DF57B6DF1D5B8ABA003F9A88 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				DF57B6FA1D5B8C22003F9A88 /* QuotzzyKit.h */,
 				DF57B6E01D5B8ABA003F9A88 /* Author.swift */,
 				DF57B6E11D5B8ABA003F9A88 /* Quote.swift */,
 				DF57B6E21D5B8ABA003F9A88 /* Quotzzy.swift */,
-				DF57B70C1D5B8E14003F9A88 /* Info.plist */,
+				DF57B7A51D5DD401003F9A88 /* Supporting Files */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -177,6 +177,15 @@
 			path = Tests;
 			sourceTree = "<group>";
 		};
+		DF57B7A51D5DD401003F9A88 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF57B7A71D5DD401003F9A88 /* QuotzzyKit.h */,
+				DF57B7A61D5DD401003F9A88 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -184,7 +193,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF57B70E1D5B8E84003F9A88 /* QuotzzyKit.h in Headers */,
+				DF57B7AA1D5DD460003F9A88 /* QuotzzyKit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,7 +201,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF57B7321D5B94B4003F9A88 /* QuotzzyKit.h in Headers */,
+				DF57B7AB1D5DD475003F9A88 /* QuotzzyKit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,7 +209,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF57B75F1D5BA337003F9A88 /* QuotzzyKit.h in Headers */,
+				DF57B7AC1D5DD47B003F9A88 /* QuotzzyKit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,7 +217,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF57B78F1D5BA9D7003F9A88 /* QuotzzyKit.h in Headers */,
+				DF57B7A91D5DD401003F9A88 /* QuotzzyKit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +446,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF57B7A81D5DD401003F9A88 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -641,7 +651,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Sources/Info.plist;
+				INFOPLIST_FILE = "Sources/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -662,7 +672,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Sources/Info.plist;
+				INFOPLIST_FILE = "Sources/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -683,7 +693,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Sources/Info.plist;
+				INFOPLIST_FILE = "Sources/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.anatoliygatt.QuotzzyKit-watchOS";
@@ -705,7 +715,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Sources/Info.plist;
+				INFOPLIST_FILE = "Sources/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.anatoliygatt.QuotzzyKit-watchOS";
@@ -727,7 +737,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Sources/Info.plist;
+				INFOPLIST_FILE = "Sources/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.anatoliygatt.QuotzzyKit-tvOS";
@@ -749,7 +759,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Sources/Info.plist;
+				INFOPLIST_FILE = "Sources/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.anatoliygatt.QuotzzyKit-tvOS";
@@ -821,7 +831,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = Sources/Info.plist;
+				INFOPLIST_FILE = "Sources/Supporting FIles/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
@@ -844,7 +854,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = Sources/Info.plist;
+				INFOPLIST_FILE = "Sources/Supporting FIles/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
@@ -930,6 +940,7 @@
 				DF57B76E1D5BA524003F9A88 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DF57B77D1D5BA760003F9A88 /* Build configuration list for PBXNativeTarget "QuotzzyKit tvOS Tests" */ = {
 			isa = XCConfigurationList;
@@ -938,6 +949,7 @@
 				DF57B77F1D5BA760003F9A88 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DF57B78C1D5BA97D003F9A88 /* Build configuration list for PBXNativeTarget "QuotzzyKit macOS" */ = {
 			isa = XCConfigurationList;
@@ -946,6 +958,7 @@
 				DF57B78E1D5BA97D003F9A88 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DF57B79F1D5BAE62003F9A88 /* Build configuration list for PBXNativeTarget "QuotzzyKit macOS Tests" */ = {
 			isa = XCConfigurationList;
@@ -954,6 +967,7 @@
 				DF57B7A11D5BAE62003F9A88 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
