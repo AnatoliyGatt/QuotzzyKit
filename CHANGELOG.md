@@ -1,3 +1,13 @@
+2.0.2 / 2016-08-12
+==================
+
+* Add SwiftLint run script phase to "QuotzzyKit tvOS" build phases
+* Add SwiftLint run script phase to "QuotzzyKit watchOS" build phases
+* Add SwiftLint run script phase to "QuotzzyKit iOS" build phases
+* Add SwiftLint run script phase to "QuotzzyKit macOS" build phases
+* Update Xcode project
+* Restructure Xcode project
+
 2.0.1 / 2016-08-11
 ==================
 
