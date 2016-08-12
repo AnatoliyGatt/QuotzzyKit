@@ -28,11 +28,11 @@
 		DF57B79C1D5BAE62003F9A88 /* QuotzzyKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF57B7871D5BA97D003F9A88 /* QuotzzyKit.framework */; };
 		DF57B7A21D5BAEC1003F9A88 /* QuoteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF57B6E71D5B8AEA003F9A88 /* QuoteTests.swift */; };
 		DF57B7A31D5BAEC4003F9A88 /* QuotzzyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF57B6E81D5B8AEA003F9A88 /* QuotzzyTests.swift */; };
-		DF57B7A81D5DD401003F9A88 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DF57B7A61D5DD401003F9A88 /* Info.plist */; };
 		DF57B7A91D5DD401003F9A88 /* QuotzzyKit.h in Headers */ = {isa = PBXBuildFile; fileRef = DF57B7A71D5DD401003F9A88 /* QuotzzyKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DF57B7AA1D5DD460003F9A88 /* QuotzzyKit.h in Headers */ = {isa = PBXBuildFile; fileRef = DF57B7A71D5DD401003F9A88 /* QuotzzyKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DF57B7AB1D5DD475003F9A88 /* QuotzzyKit.h in Headers */ = {isa = PBXBuildFile; fileRef = DF57B7A71D5DD401003F9A88 /* QuotzzyKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DF57B7AC1D5DD47B003F9A88 /* QuotzzyKit.h in Headers */ = {isa = PBXBuildFile; fileRef = DF57B7A71D5DD401003F9A88 /* QuotzzyKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF57B7EC1D5DD619003F9A88 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DF57B7A61D5DD401003F9A88 /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,7 +66,6 @@
 		DF57B6E71D5B8AEA003F9A88 /* QuoteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteTests.swift; sourceTree = "<group>"; };
 		DF57B6E81D5B8AEA003F9A88 /* QuotzzyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotzzyTests.swift; sourceTree = "<group>"; };
 		DF57B7041D5B8DEE003F9A88 /* QuotzzyKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = QuotzzyKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DF57B7211D5B8FBD003F9A88 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DF57B72A1D5B9454003F9A88 /* QuotzzyKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = QuotzzyKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF57B73D1D5B9837003F9A88 /* QuotzzyKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = QuotzzyKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF57B7641D5BA524003F9A88 /* QuotzzyKit iOS Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "QuotzzyKit iOS Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -75,6 +74,7 @@
 		DF57B7971D5BAE62003F9A88 /* QuotzzyKit macOS Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "QuotzzyKit macOS Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF57B7A61D5DD401003F9A88 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DF57B7A71D5DD401003F9A88 /* QuotzzyKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuotzzyKit.h; sourceTree = "<group>"; };
+		DF57B7EA1D5DD588003F9A88 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,7 +172,7 @@
 			children = (
 				DF57B6E71D5B8AEA003F9A88 /* QuoteTests.swift */,
 				DF57B6E81D5B8AEA003F9A88 /* QuotzzyTests.swift */,
-				DF57B7211D5B8FBD003F9A88 /* Info.plist */,
+				DF57B7E91D5DD588003F9A88 /* Supporting Files */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -182,6 +182,14 @@
 			children = (
 				DF57B7A71D5DD401003F9A88 /* QuotzzyKit.h */,
 				DF57B7A61D5DD401003F9A88 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DF57B7E91D5DD588003F9A88 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF57B7EA1D5DD588003F9A88 /* Info.plist */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
@@ -446,7 +454,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF57B7A81D5DD401003F9A88 /* Info.plist in Resources */,
+				DF57B7EC1D5DD619003F9A88 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -776,7 +784,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				INFOPLIST_FILE = Tests/Info.plist;
+				INFOPLIST_FILE = "Tests/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.anatoliygatt.QuotzzyKit-iOS-Tests";
@@ -788,7 +796,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				INFOPLIST_FILE = Tests/Info.plist;
+				INFOPLIST_FILE = "Tests/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.anatoliygatt.QuotzzyKit-iOS-Tests";
@@ -799,7 +807,7 @@
 		DF57B77E1D5BA760003F9A88 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				INFOPLIST_FILE = Tests/Info.plist;
+				INFOPLIST_FILE = "Tests/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.anatoliygatt.QuotzzyKit-tvOS-Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -811,7 +819,7 @@
 		DF57B77F1D5BA760003F9A88 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				INFOPLIST_FILE = Tests/Info.plist;
+				INFOPLIST_FILE = "Tests/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.anatoliygatt.QuotzzyKit-tvOS-Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -871,7 +879,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = Tests/Info.plist;
+				INFOPLIST_FILE = "Tests/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.anatoliygatt.QuotzzyKit-macOS-Tests";
@@ -885,7 +893,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = Tests/Info.plist;
+				INFOPLIST_FILE = "Tests/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.anatoliygatt.QuotzzyKit-macOS-Tests";
